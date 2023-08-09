@@ -13,7 +13,7 @@ public class Employee {
     @NotEmpty(message = "name should not be empty")
     @Size(min=4,message = "the name should be more than 4")
     private String name;
-    @NotNull(message = "enter your age")
+    @NotNull(message = "you should enter numbers ")
     @Positive
     @Min(25)
     private int age;
